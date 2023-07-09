@@ -1,8 +1,19 @@
 #!/bin/zsh
 # Open the "Google Chrome" application
 if [ -n "$1" ]; then
-    # Open the URL in "Google Chrome"
-    open -a "Google Chrome" "$1"
+    if [[ "$1" == "aws" ]]; then
+        # Open aws console in "Google Chrome"
+        open -a "Google Chrome" "https://console.aws.amazon.com/console/home"
+    if [[ "$1" == "github" ]]; then
+        # Open Github in Google Chrome
+        open -a 'Google Chrome' 'https://github.com'
+    if [[ "$1" == "chat" ]]; then
+        # Open ChatGPT in Google Chrome
+        open -a 'Google Chrome' 'https://chat.openai.com/'
+    else
+        # Open the URL in "Google Chrome"
+        open -a "Google Chrome" "$1"
+    fi
 else
     # Open the "Google Chrome" application
     open -a "Google Chrome"   

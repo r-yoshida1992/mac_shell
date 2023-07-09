@@ -1,3 +1,0 @@
-#!/bin/zsh
-# 'Google Chrome'で'https://chat.openai.com/'を開く
-open -a 'Google Chrome' 'https://chat.openai.com/'
