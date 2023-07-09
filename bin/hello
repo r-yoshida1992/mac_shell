@@ -1,1 +1,3 @@
+#!/bin/zsh
+# Print "hello" to the console
 echo "hello"

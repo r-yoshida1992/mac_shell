@@ -1,1 +1,9 @@
-open -a "Google Chrome"
+#!/bin/zsh
+# Open the "Google Chrome" application
+if [ -n "$1" ]; then
+    # Open the URL in "Google Chrome"
+    open -a "Google Chrome" "$1"
+else
+    # Open the "Google Chrome" application
+    open -a "Google Chrome"   
+fi

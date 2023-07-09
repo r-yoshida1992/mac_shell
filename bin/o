@@ -1,1 +1,3 @@
+#!/bin/zsh
+# Open the specified application
 open -a $1

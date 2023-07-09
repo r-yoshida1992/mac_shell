@@ -1,1 +1,3 @@
+#!/bin/zsh
+# Open 'https://github.com' in Google Chrome
 open -a 'Google Chrome' 'https://github.com'

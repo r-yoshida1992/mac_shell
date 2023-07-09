@@ -1,5 +1,4 @@
 #!bin/sh
-
 SHELL_NAME=$(basename "$SHELL")
 
 if [ "$SHELL_NAME" = "bash" ]; then
