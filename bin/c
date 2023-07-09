@@ -4,10 +4,10 @@ if [ -n "$1" ]; then
     if [[ "$1" == "aws" ]]; then
         # Open aws console in "Google Chrome"
         open -a "Google Chrome" "https://console.aws.amazon.com/console/home"
-    if [[ "$1" == "github" ]]; then
+    elif [[ "$1" == "github" ]]; then
         # Open Github in Google Chrome
         open -a 'Google Chrome' 'https://github.com'
-    if [[ "$1" == "chat" ]]; then
+    elif [[ "$1" == "chat" ]]; then
         # Open ChatGPT in Google Chrome
         open -a 'Google Chrome' 'https://chat.openai.com/'
     else
