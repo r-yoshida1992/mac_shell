@@ -1,5 +1,0 @@
-if [ -d "/Applications/Visual Studio Code - Insiders.app" ]; then
-    open -a "Visual Studio Code - Insiders"
-else
-    open -a "Visual Studio Code"
-fi
