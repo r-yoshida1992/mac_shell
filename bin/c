@@ -10,6 +10,9 @@ if [ -n "$1" ]; then
     elif [[ "$1" == "chat" ]]; then
         # Open ChatGPT in Google Chrome
         open -a 'Google Chrome' 'https://chat.openai.com/'
+    elif [[ "$1" == "local3000" ]]; then
+        # Open ChatGPT in Google Chrome
+        open -a 'Google Chrome' 'http://localhost:3000/'
     else
         # Open the URL in "Google Chrome"
         open -a "Google Chrome" "$1"
